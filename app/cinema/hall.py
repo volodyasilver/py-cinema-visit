@@ -3,7 +3,7 @@ class CinemaHall:
         self.hall_number = hall_number
 
     def movie_session(
-        self, 
+        self,
         movie_name: str,
         customers: list,
         cleaning_staff: object
