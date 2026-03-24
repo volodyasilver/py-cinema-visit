@@ -1,6 +1,3 @@
-from typing import Any
-
-
 class CinemaHall:
     def __init__(self, hall_number: int) -> None:
         self.hall_number = hall_number
@@ -9,7 +6,7 @@ class CinemaHall:
         self, 
         movie_name: str, 
         customers: list, 
-        cleaning_staff:Any
+        cleaning_staff:object
     ) -> None:
         print(f'"{movie_name}" started in hall number {self.hall_number}.')
         for customer in customers:
